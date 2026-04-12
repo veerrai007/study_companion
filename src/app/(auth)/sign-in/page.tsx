@@ -41,7 +41,7 @@ export default function page() {
         toast.warning(res?.error, { position: "top-center", richColors: true })
       } else {
         toast.success("Successfully Logged In!", { position: "top-center", richColors: true })
-        router.replace('/dashboard')
+        router.replace('/documentPage')
       }
     } catch (error: any) {
       setLoading(false);

@@ -31,7 +31,7 @@ export default function page() {
     try {
       setLoading(true);
       const res = await signIn('credentials', {
-        redirect: false,
+        // redirect: false,
         email: data.email,
         password: data.password
       })      
